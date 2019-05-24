@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Chicago Bears Quizzler</string>
+
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="initial_score">Score 0/4</string>
+
+    <string name="incorrect_toast">Wrong!</string>
+    <string name="correct_toast">Correct!</string>
+
+    <string name="question_1">Former Chicago Bears quarterback Jay Cutler wore the number 6 on his jersey.</string>
+    <string name="question_2">Running back Walter Payton had the nickname "Sweetness".</string>
+    <string name="question_3">The last Super Bowl appearance for the Chicago Bears was during the 2005-2006 season.</string>
+    <string name="question_4">Former Chicago Bears wide receiver and first round pick David Terrell wore 83 on his jersey.</string>
+</resources>
