@@ -27,7 +27,21 @@ public class MainActivity extends AppCompatActivity {
             new TrueFalse(R.string.question_1, true),
             new TrueFalse(R.string.question_2, true),
             new TrueFalse(R.string.question_3, true),
-            new TrueFalse(R.string.question_4, true)
+            new TrueFalse(R.string.question_4, true),
+            new TrueFalse(R.string.question_5, false),
+            new TrueFalse(R.string.question_6, false),
+            new TrueFalse(R.string.question_7, true),
+            new TrueFalse(R.string.question_8, true),
+            new TrueFalse(R.string.question_9, false),
+            new TrueFalse(R.string.question_10, false),
+            new TrueFalse(R.string.question_11, false),
+            new TrueFalse(R.string.question_12, false),
+            new TrueFalse(R.string.question_13, true),
+            new TrueFalse(R.string.question_14, false),
+            new TrueFalse(R.string.question_15, false),
+            new TrueFalse(R.string.question_16, true),
+            new TrueFalse(R.string.question_17, false),
+            new TrueFalse(R.string.question_18, false)
     };
 
     //Progress bar constant, had to move here for the code to work properly
