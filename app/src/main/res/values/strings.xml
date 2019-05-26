@@ -3,7 +3,7 @@
 
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="initial_score">Score 0/4</string>
+    <string name="initial_score">Score 0/24</string>
 
     <string name="incorrect_toast">Wrong!</string>
     <string name="correct_toast">Correct!</string>
@@ -26,4 +26,11 @@
     <string name="question_16">The Chicago Bears finished the regular season 15&#8211;1 and during their 1985 Super Bowl winning season.</string>
     <string name="question_17">Defensive lineman Steve McMichael is the all-time career leader in tackles for the Chicago Bears.</string>
     <string name="question_18">Former head coach Lovie Smith lead the Bears to a 12&#8211;4 record in 2006 during their Super Bowl losing season.</string>
+    <string name="question_19">Former head coach Mike Ditka was also an offensive lineman for the Chicago Bears before his coaching career.</string>
+    <string name="question_20">Linebacker Brian Urlacher was a former 1st round draft pick for the Chicago Bears in 2000.</string>
+    <string name="question_21">Defensive end Richard Dent had the nickname Mongo while playing for the Chicago Bears.</string>
+    <string name="question_22">Punter Adam Podlesh was the punter for the Chicago Bears during the 2005 season.</string>
+    <string name="question_23">Kicker Robbie Gould was the kicker for the Chicago Bears during the 2005 season.</string>
+    <string name="question_24">Guard Kyle Long made the pro bowl during his rookie season.</string>
+    <string name="question_25">Wilbur Marshall was a starting linebacker for the Chicago Bears during the 1985 Super Bowl winning season.</string>
 </resources>

@@ -41,7 +41,14 @@ public class MainActivity extends AppCompatActivity {
             new TrueFalse(R.string.question_15, false),
             new TrueFalse(R.string.question_16, true),
             new TrueFalse(R.string.question_17, false),
-            new TrueFalse(R.string.question_18, false)
+            new TrueFalse(R.string.question_18, false),
+            new TrueFalse(R.string.question_19, false),
+            new TrueFalse(R.string.question_20, true),
+            new TrueFalse(R.string.question_21, false),
+            new TrueFalse(R.string.question_22, false),
+            new TrueFalse(R.string.question_23, false),
+            new TrueFalse(R.string.question_24, true),
+            new TrueFalse(R.string.question_25, true)
     };
 
     //Progress bar constant, had to move here for the code to work properly
@@ -72,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         mScoreTextView.setText("Score " + mScore + "/" + mQuestionBank.length);
 
 
+        //True and False button listeners with methods to run on each click
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //Method to update next question or show final message of score and close application
     private void updateQuestion() {
         mIndex = (mIndex + 1) % mQuestionBank.length;
 
@@ -113,6 +122,7 @@ public class MainActivity extends AppCompatActivity {
         mScoreTextView.setText("Score " + mScore + "/" + mQuestionBank.length);
     }
 
+    //Method that checks the answer and display a toast message of the result
     private void checkAnswer(boolean userSelection) {
         boolean correctAnswer = mQuestionBank[mIndex].isAnswer();
 
@@ -124,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //Save instance to store the score and question index
     @Override
     public void onSaveInstanceState(Bundle outState){
         super.onSaveInstanceState(outState);
