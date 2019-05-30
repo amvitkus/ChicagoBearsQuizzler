@@ -50,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
             new TrueFalse(R.string.question_24, true),
             new TrueFalse(R.string.question_25, true),
             new TrueFalse(R.string.question_26, false),
-            new TrueFalse(R.string.question_27, false)
+            new TrueFalse(R.string.question_27, false),
+            new TrueFalse(R.string.question_28, true)
     };
 
     //Progress bar constant, had to move here for the code to work properly
