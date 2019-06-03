@@ -3,7 +3,7 @@
 
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="initial_score">Score 0/32</string>
+    <string name="initial_score">Score 0/33</string>
 
     <string name="incorrect_toast">Wrong!</string>
     <string name="correct_toast">Correct!</string>
@@ -40,4 +40,5 @@
     <string name="question_30">Cornerback Nathan Vasher returned a missed field goal against the San Francisco 49ers for 108 yards.</string>
     <string name="question_31">As of 2019, the number 54 on a jersey is officially retired from being a jersey number.</string>
     <string name="question_32">Linebacker Dick Butkus wore the number 56 on his jersey.</string>
+    <string name="question_33">The Chicago Bears defeated the Seattle Seahawks during the divisional round of the playoffs in 2010.</string>
 </resources>

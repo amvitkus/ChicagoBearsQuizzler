@@ -55,11 +55,14 @@ public class MainActivity extends AppCompatActivity {
             new TrueFalse(R.string.question_29, false),
             new TrueFalse(R.string.question_30, true),
             new TrueFalse(R.string.question_31, false),
-            new TrueFalse(R.string.question_32, false)
+            new TrueFalse(R.string.question_32, false),
+            new TrueFalse(R.string.question_33, true)
     };
 
-    //Progress bar constant, had to move here for the code to work properly
-    final int PROGRESS_BAR_INCREMENT = (int) Math.ceil(100.0 / mQuestionBank.length);
+    //Progress bar constant, had to move here for the code to work properly, due to use of mQuestionBank.
+    //final int PROGRESS_BAR_INCREMENT = (int) Math.ceil(100.0 / mQuestionBank.length);
+    final int NUMBER_OF_QUESTIONS = 33; //New way to update progress bar,
+
 
 
     @Override
@@ -80,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
         mQuestionTextView = findViewById(R.id.question_text_view);
         mScoreTextView = findViewById(R.id.score);
         mProgressBar = findViewById(R.id.progress_bar);
+        mProgressBar.setMax(NUMBER_OF_QUESTIONS);  //Number of questions, maximum size,
 
         mQuestion = mQuestionBank[mIndex].getQuestionID();
         mQuestionTextView.setText(mQuestion);
@@ -125,7 +129,8 @@ public class MainActivity extends AppCompatActivity {
 
         mQuestion = mQuestionBank[mIndex].getQuestionID();
         mQuestionTextView.setText(mQuestion);
-        mProgressBar.incrementProgressBy(PROGRESS_BAR_INCREMENT);
+        //mProgressBar.incrementProgressBy(PROGRESS_BAR_INCREMENT);
+        mProgressBar.setProgress(mIndex + 1); //New way for progress bar to update by question
         mScoreTextView.setText("Score " + mScore + "/" + mQuestionBank.length);
     }
 
