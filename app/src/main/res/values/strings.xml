@@ -3,7 +3,7 @@
 
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="initial_score">Score 0/34</string>
+    <string name="initial_score">Score 0/35</string>
 
     <string name="incorrect_toast">Wrong!</string>
     <string name="correct_toast">Correct!</string>
@@ -42,4 +42,5 @@
     <string name="question_32">Linebacker Dick Butkus wore the number 56 on his jersey.</string>
     <string name="question_33">The Chicago Bears defeated the Seattle Seahawks during the divisional round of the playoffs in 2010.</string>
     <string name="question_34">Former Chicago Bears quarterback Jim Miller wore the number 12 on his jersey.</string>
+    <string name="question_35">Former Chicago Bears long snapper Patrick Mannelly has the team record for most games played with 245 games.</string>
 </resources>
