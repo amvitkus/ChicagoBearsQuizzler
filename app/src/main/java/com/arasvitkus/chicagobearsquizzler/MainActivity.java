@@ -58,12 +58,15 @@ public class MainActivity extends AppCompatActivity {
             new TrueFalse(R.string.question_32, false),
             new TrueFalse(R.string.question_33, true),
             new TrueFalse(R.string.question_34, false),
-            new TrueFalse(R.string.question_35, true)
+            new TrueFalse(R.string.question_35, true),
+            new TrueFalse(R.string.question_36, false),
+            new TrueFalse(R.string.question_37, true),
+            new TrueFalse(R.string.question_38, true)
     };
 
     //Progress bar constant, had to move here for the code to work properly, due to use of mQuestionBank.
     //final int PROGRESS_BAR_INCREMENT = (int) Math.ceil(100.0 / mQuestionBank.length);
-    final int NUMBER_OF_QUESTIONS = 33; //New way to update progress bar,
+    final int NUMBER_OF_QUESTIONS = 38; //New way to update progress bar,
 
 
 
