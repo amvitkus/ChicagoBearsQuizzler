@@ -3,7 +3,7 @@
 
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="initial_score">Score 0/40</string>
+    <string name="initial_score">Score 0/41</string>
 
     <string name="incorrect_toast">Wrong!</string>
     <string name="correct_toast">Correct!</string>
@@ -48,4 +48,5 @@
     <string name="question_38">Cornerback Charles Tillman is the all-time leader in forced fumbles while playing with the Chicago Bears.</string>
     <string name="question_39">The Chicago Bears won the NFL Championship in 1948 against the New York Giants.</string>
     <string name="question_40">The Chicago Bears selected tight end Greg Olsen in the 2nd round of the 2007 NFL Draft.</string>
+    <string name="question_41">Michael Burton was a backup guard who played for the Chicago Bears during the 2018 season.</string>
 </resources>
