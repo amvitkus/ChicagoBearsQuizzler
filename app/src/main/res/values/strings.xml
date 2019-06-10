@@ -3,7 +3,7 @@
 
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="initial_score">Score 0/43</string>
+    <string name="initial_score">Score 0/44</string>
 
     <string name="incorrect_toast">Wrong!</string>
     <string name="correct_toast">Correct!</string>
@@ -51,4 +51,5 @@
     <string name="question_41">Michael Burton was a backup guard who played for the Chicago Bears during the 2018 season.</string>
     <string name="question_42">Running back Walter Payton rushed for 16,726 yards during his career with the Chicago Bears.</string>
     <string name="question_43">Running back Gale Sayers rushed for 8,989 yard during his career with the Chicago Bears.</string>
+    <string name="question_44">Running back Neal Anderson is all-time leader in rushing touchdowns for the Chicago Bears.</string>
 </resources>
