@@ -2,6 +2,9 @@
 A simple quiz app for android that covers Chicago Bears trivia. Only true and false questions right now. The user chooses an answer then goes on to the next question, whether they are right or wrong. The game keeps track of the user score. Once the quiz ends, an alert pops up displaying the final score for the user and the option to close out of the app.
 
 
+Shows the use of the Model View Controller(MVC) design pattern.
+
+
 Currently just one screen type, quiz starts automatically from question 1.
 
 
