@@ -2,6 +2,7 @@ package com.arasvitkus.chicagobearsquizzler;
 
 public class TrueFalse {
 
+    //Declare member variables
     private int mQuestionID;
     private boolean mAnswer;
 
@@ -10,6 +11,7 @@ public class TrueFalse {
         mAnswer = trueOrFalse;
     }
 
+    //Created getters and setters, currently only use getters
     public int getQuestionID() {
         return mQuestionID;
     }
