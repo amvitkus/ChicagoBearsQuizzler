@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     Button mFalseButton;
     TextView mQuestionTextView;
     TextView mScoreTextView;
-    TextView mTimer;
+    TextView mTimerTextView;
     int mIndex;
     int mQuestion;
     int mScore;
@@ -102,12 +102,12 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-                mTimer.setText("Time is up!");
+                mTimerTextView.setText("Time is up!");
             }
 
             @Override
             public void onTick(long millisUntilFinished) {
-                mTimer.setText("Time left: "
+                mTimerTextView.setText("Time left: "
                         + (millisUntilFinished / 1000));
             }
         }.start();
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
         mQuestionTextView = findViewById(R.id.question_text_view);
         mScoreTextView = findViewById(R.id.score);
         mProgressBar = findViewById(R.id.progress_bar);
-        mTimer = findViewById(R.id.timer_text_view);
+        mTimerTextView = findViewById(R.id.timer_text_view);
 
         mProgressBar.setMax(NUMBER_OF_QUESTIONS);  //Number of questions, maximum size,
 
@@ -208,14 +208,14 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFinish() {
-                mTimer.setText("Time is up!");
+                mTimerTextView.setText("Time is up!");
                 mCountDown.cancel();
 
             }
 
             @Override
             public void onTick(long millisUntilFinished) {
-                mTimer.setText("Time left: "
+                mTimerTextView.setText("Time left: "
                         + (millisUntilFinished / 1000));
             }
         }.start();
