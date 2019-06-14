@@ -20,7 +20,7 @@ TO DO:
 
 Add more questions.
 
-Fix progress bar so it actually fills by each question.
+Add question timer. 10 seconds?
 
 Add a menu system with simple statistics.
 
