@@ -2,6 +2,7 @@ package com.arasvitkus.chicagobearsquizzler;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -17,10 +18,13 @@ public class MainActivity extends AppCompatActivity {
     Button mFalseButton;
     TextView mQuestionTextView;
     TextView mScoreTextView;
+    TextView mTimer;
     int mIndex;
     int mQuestion;
     int mScore;
     ProgressBar mProgressBar;
+
+    private CountDownTimer mCountDown;
 
     //Use an array to create the question bank
     private TrueFalse[] mQuestionBank = new TrueFalse[]{
@@ -81,8 +85,6 @@ public class MainActivity extends AppCompatActivity {
     //final int PROGRESS_BAR_INCREMENT = (int) Math.ceil(100.0 / mQuestionBank.length);
     final int NUMBER_OF_QUESTIONS = 50; //New way to update progress bar,
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -96,16 +98,34 @@ public class MainActivity extends AppCompatActivity {
             mIndex = 0;
         }
 
+        mCountDown = new CountDownTimer(15000, 1000) {
+
+            @Override
+            public void onFinish() {
+                mTimer.setText("Time is up!");
+            }
+
+            @Override
+            public void onTick(long millisUntilFinished) {
+                mTimer.setText("Time left: "
+                        + (millisUntilFinished / 1000));
+            }
+        }.start();
+
+
         mTrueButton = findViewById(R.id.true_button);
         mFalseButton = findViewById(R.id.false_button);
         mQuestionTextView = findViewById(R.id.question_text_view);
         mScoreTextView = findViewById(R.id.score);
         mProgressBar = findViewById(R.id.progress_bar);
+        mTimer = findViewById(R.id.timer_text_view);
+
         mProgressBar.setMax(NUMBER_OF_QUESTIONS);  //Number of questions, maximum size,
 
         mQuestion = mQuestionBank[mIndex].getQuestionID();
         mQuestionTextView.setText(mQuestion);
         mScoreTextView.setText("Score " + mScore + "/" + mQuestionBank.length);
+
 
 
         //True and False button listeners with methods to run on each click
@@ -114,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 checkAnswer(true);
                 updateQuestion();
+
             }
         });
 
@@ -122,6 +143,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 checkAnswer(false);
                 updateQuestion();
+
             }
         });
 
@@ -132,6 +154,7 @@ public class MainActivity extends AppCompatActivity {
         mIndex = (mIndex + 1) % mQuestionBank.length;
 
         if(mIndex == 0) {
+            mCountDown.cancel();
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.setTitle("Game Over");
             alert.setCancelable(false);
@@ -143,6 +166,10 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
             alert.show();
+        } else {
+            if (mCountDown != null) {
+                mCountDown.cancel();
+            }
         }
 
         mQuestion = mQuestionBank[mIndex].getQuestionID();
@@ -150,6 +177,8 @@ public class MainActivity extends AppCompatActivity {
         //mProgressBar.incrementProgressBy(PROGRESS_BAR_INCREMENT);
         mProgressBar.setProgress(mIndex + 1); //New way for progress bar to update by question
         mScoreTextView.setText("Score " + mScore + "/" + mQuestionBank.length);
+        theFinalCountdown();
+
     }
 
     //Method that checks the answer and display a toast message of the result
@@ -171,6 +200,26 @@ public class MainActivity extends AppCompatActivity {
 
         outState.putInt("ScoreKey", mScore);
         outState.putInt("IndexKey", mIndex);
+    }
+
+    private void theFinalCountdown() {
+
+        mCountDown = new CountDownTimer(15000, 1000) {
+
+            @Override
+            public void onFinish() {
+                mTimer.setText("Time is up!");
+                mCountDown.cancel();
+
+            }
+
+            @Override
+            public void onTick(long millisUntilFinished) {
+                mTimer.setText("Time left: "
+                        + (millisUntilFinished / 1000));
+            }
+        }.start();
+
     }
 
 }
