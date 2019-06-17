@@ -3,7 +3,7 @@
 
     <string name="true_button">True</string>
     <string name="false_button">False</string>
-    <string name="initial_score">Score 0/51</string>
+    <string name="initial_score">Score 0/52</string>
     <string name="timer">15</string>
 
     <string name="incorrect_toast">Wrong!</string>
@@ -60,4 +60,5 @@
     <string name="question_49">Wide receiver Riley Ridley was drafted in the 7th round of the 2019 NFL Draft for the Chicago Bears.</string>
     <string name="question_50">Head coach Mike Ditka has the most wins as a coach for the Chicago Bears.</string>
     <string name="question_51">Defensive end Alex Brown wore the number 96 on his jersey.</string>
+    <string name="question_52">Linebacker Brian Urlacher is the franchise leader in solo tackles for the Chicago Bears.</string>
 </resources>
