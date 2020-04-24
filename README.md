@@ -20,7 +20,7 @@ TO DO:
 
 Add more questions.
 
-Add question timer. 10 seconds?
+Add question timer. 10 seconds? New prototype build has a timer, but needs fixing.
 
 Add a menu system with simple statistics.
 
