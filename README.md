@@ -25,3 +25,5 @@ Add question timer. 10 seconds? New prototype build has a timer, but needs fixin
 Add a menu system with simple statistics.
 
 Sound?
+
+Polish to release on App store.
