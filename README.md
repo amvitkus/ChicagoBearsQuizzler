@@ -8,7 +8,7 @@ Shows the use of the Model View Controller(MVC) design pattern.
 Currently just one screen type, quiz starts automatically from question 1.
 
 
-This app is mainly for Chicago Bears enthusiasts. As it stands, there are no Chicago Bears quiz apps on the Google Play store.
+This app is mainly for Chicago Bears enthusiasts and NFL trivia fans. As it stands, there are no Chicago Bears quiz apps on the Google Play store.
 
 
 INSTALLATION:
