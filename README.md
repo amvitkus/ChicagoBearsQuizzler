@@ -18,7 +18,7 @@ Fork it or import the zip file into Android Studio. Run it from an emulator or t
 
 TO DO:
 
-Add more questions.
+Add more questions, maybe add multiple choice ones.
 
 Add question timer. 10 seconds? New prototype build has a timer, but needs fixing.
 
