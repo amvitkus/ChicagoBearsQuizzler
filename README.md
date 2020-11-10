@@ -5,7 +5,9 @@ A simple quiz app for android that covers Chicago Bears trivia. Only true and fa
 Shows the use of the Model View Controller(MVC) design pattern.
 
 MODEL- The business logic of the app. Holding data of the true/false questions.
+
 VIEW- What the user sees on screen, buttons, images, score progress, etc.
+
 CONTROLLER- The application logic. Manage flow of data to and from model objects and view layer. MainActivity is the sole controller. Typcially controllers are subclasses of Activity or Fragment.
 
 
