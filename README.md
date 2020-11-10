@@ -1,5 +1,5 @@
 # ChicagoBearsQuizzler
-A simple quiz app for android that covers Chicago Bears trivia. Only true and false questions right now. The user chooses an answer then goes on to the next question, whether they are right or wrong. The game keeps track of the user score. Once the quiz ends, an alert pops up displaying the final score for the user and the option to close out of the app.
+A simple quiz app for android that covers Chicago Bears trivia. Only true and false questions right now. The user chooses an answer then goes on to the next question, whether they are right or wrong. The game keeps track of the user score. Once the quiz ends, an alert pops up displaying the final score for the user and the option to close out of the app. App was originally written in Java, but has now been updated to Kotlin.
 
 
 Shows the use of the Model View Controller(MVC) design pattern.
@@ -20,9 +20,13 @@ TO DO:
 
 Add more questions, maybe add multiple choice ones.
 
-Add question timer. 10 seconds? New prototype build has a timer, but needs fixing.
+Add question timer. 10 seconds? New prototype build has a timer, but needs fixing. Currently removed.
+
+Change background image. Maybe no image for background as text can be tricky to see.
 
 Add a menu system with simple statistics.
+
+Add a restart button once app finishes.
 
 Sound?
 
