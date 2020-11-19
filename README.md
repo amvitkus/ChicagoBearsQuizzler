@@ -25,7 +25,10 @@ INSTALLATION:
 Fork it or import the zip file into Android Studio. Run it from an emulator or transfer it onto the users device.
 
 
-SCREENSHOTS:
+SCREENSHOT:
+
+![One](https://raw.githubusercontent.com/amvitkus/ChicagoBearsQuizzler/master/Screenshot_20201118-231534.png)
+
 
 
 
