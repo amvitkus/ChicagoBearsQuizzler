@@ -25,6 +25,10 @@ INSTALLATION:
 Fork it or import the zip file into Android Studio. Run it from an emulator or transfer it onto the users device.
 
 
+SCREENSHOTS:
+
+
+
 TO DO:
 
 Add more questions, maybe add multiple choice ones.
