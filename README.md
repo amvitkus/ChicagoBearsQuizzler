@@ -38,7 +38,9 @@ Add more questions, maybe add multiple choice ones.
 
 Add question timer. 10 seconds? New prototype build has a timer, but needs fixing. Currently removed.
 
-Change background image. Maybe no image for background as text can be tricky to see.
+Change background image. Maybe no image for background as text can be tricky to see. Maybe use a simple MaterialUI.
+
+Screen rotation? Or keep it vertical only.
 
 Add a menu system with simple statistics.
 
