@@ -34,6 +34,8 @@ SCREENSHOT:
 
 TO DO:
 
+Will likely do another rewrite in Kotlin, MVC patter. Make the app look cleaner and more professional.
+
 Add more questions, maybe add multiple choice ones.
 
 Add question timer. 10 seconds? New prototype build has a timer, but needs fixing. Currently removed.
