@@ -34,7 +34,7 @@ SCREENSHOT:
 
 TO DO:
 
-Will likely do another rewrite in Kotlin, MVC patter. Make the app look cleaner and more professional.
+Will likely do another rewrite in Kotlin, MVC pattern. Make the app look cleaner and more professional.
 
 Add more questions, maybe add multiple choice ones.
 
