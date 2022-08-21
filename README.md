@@ -27,7 +27,7 @@ Fork it or import the zip file into Android Studio. Run it from an emulator or t
 
 SCREENSHOT:
 
-![One](https://raw.githubusercontent.com/amvitkus/ChicagoBearsQuizzler/master/Screenshot_20201118-231534.png)
+<img src="https://raw.githubusercontent.com/amvitkus/ChicagoBearsQuizzler/master/Screenshot_20201118-231534.png" alt="drawing" width="250"/>
 
 
 
