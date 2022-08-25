@@ -2,7 +2,7 @@
 
 ABOUT:
 
-A simple quiz app for android that covers Chicago Bears trivia. Only true and false questions right now. 50 questions, more to be added later as the app develops. The user chooses an answer then goes on to the next question, whether they are right or wrong. The game keeps track of the user score. Once the quiz ends, an alert pops up displaying the final score for the user and the option to close out of the app. App was originally written in Java, but has now been partially updated to Kotlin. Eventually will like to rewrite this to make it look cleaner.
+A simple quiz app for android that covers Chicago Bears trivia. Only true and false questions right now. 50 questions, more to be added later as the app develops. The user chooses an answer then goes on to the next question, whether they are right or wrong. The game keeps track of the user score. Once the quiz ends, an alert pops up displaying the final score for the user and the option to close out of the app. App was originally written in Java, but has now been partially updated to Kotlin. App was created to learn more about Android development using Java, although now it has Kotlin. Eventually will like to rewrite this to make it look cleaner.
 
 
 Shows the use of the Model View Controller(MVC) design pattern.
@@ -47,7 +47,3 @@ Screen rotation? Or keep it vertical only.
 Add a menu system with simple statistics.
 
 Add a restart button once app finishes.
-
-Sound?
-
-Polish to release on App store.
